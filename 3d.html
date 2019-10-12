@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3d</title>
+	<style>
+		.qw
+		{
+			margin-top: 200px;
+			margin-left: 500px;
+		}
+		.qw body
+		{
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.qw ul
+		{
+			position: relative;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}	
+		.qw ul li
+		{
+			position: relative;
+			list-style: none;
+			width: 60px;
+			height: 60px;
+			margin: 0 30px;
+			transform: rotate(-30deg) skew(25deg);
+			background: #ccc;
+		}
+		.qw ul li span
+		{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #000;
+			transition: 0.5s;
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			font-size: 30px !important;
+		}
+		.qw ul li:hover span:nth-child(5)
+		{
+			transform: translate(40px,-40px);
+			opacity: 1;
+		}
+		.qw ul li:hover span:nth-child(4)
+		{
+			transform: translate(30px,-30px);
+			opacity: .8;
+		}
+		.qw ul li:hover span:nth-child(3)
+		{
+			transform: translate(20px,-20px);
+			opacity: .6;
+		}
+		.qw ul li:hover span:nth-child(2)
+		{
+			transform: translate(10px,-10px);
+			opacity: .4;
+		}
+		.qw ul li:hover span:nth-child(1)
+		{
+			transform: translate(0,0);
+			opacity: .2;
+		}
+		.qw ul li:nth-child(1) span
+		{
+			background: #3b5999;
+		}
+		.qw ul li:nth-child(2) span
+		{
+			background: #55acee;
+		}
+		.qw ul li:nth-child(3) span
+		{
+			background: #dd4b39;
+		}
+		.qw ul li:nth-child(4) span
+		{
+			background: #0077B5;
+		}
+		.qw ul li:nth-child(5) span
+		{
+			background: #e4405f;
+		}
+		.qe
+		{ 
+			margin-top: 50px;
+			margin-left: 320px;
+		}
+		.qe body
+		{
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.qe ul
+		{
+			position: relative;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}	
+		.qe ul li
+		{
+			position: relative;
+			list-style: none;
+			width: 60px;
+			height: 60px;
+			margin: 0 30px;
+			transform: rotate(-30deg) skew(25deg);
+			background: #ccc;
+		}
+		.qe ul li span
+		{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #000;
+			transition: 0.5s;
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			font-size: 30px !important;
+		}
+		.qe ul li:hover span:nth-child(5)
+		{
+			transform: translate(40px,-40px);
+			opacity: 1;
+		}
+		.qe ul li:hover span:nth-child(4)
+		{
+			transform: translate(30px,-30px);
+			opacity: .8;
+		}
+		.qe ul li:hover span:nth-child(3)
+		{
+			transform: translate(20px,-20px);
+			opacity: .6;
+		}
+		.qe ul li:hover span:nth-child(2)
+		{
+			transform: translate(10px,-10px);
+			opacity: .4;
+		}
+		.qe ul li:hover span:nth-child(1)
+		{
+			transform: translate(0,0);
+			opacity: .2;
+		}
+		.qe ul li:nth-child(1) span
+		{
+			background: #DC4829;
+		}
+		.qe ul li:nth-child(2) span
+		{
+			background: #7E29DC;
+		}
+		.qe ul li:nth-child(3) span
+		{
+			background: #8D1717;
+		}
+		.qe ul li:nth-child(4) span
+		{
+			background: #D2DE0E;
+		}
+		.qe ul li:nth-child(5) span
+		{
+			background: #6E1031;
+		}
+		.qe ul li:nth-child(6) span
+		{
+			background: #77058D;
+		}
+		.qe ul li:nth-child(7) span
+		{
+			background: #11DF13;
+		}
+		.qe ul li:nth-child(8) span
+		{
+			background: #0C075E;
+		}
+	</style>
+</head>
+<body>
+	<div class="qw">
+	<ul>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>H</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>A</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>P</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>P</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>Y</span>
+			</a>
+		</li>
+	</ul>
+	</div>
+		<div class="qe">
+	<ul>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>B</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>I</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>R</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>T</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>H</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>D</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>A</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span>Y</span>
+			</a>
+		</li>
+	</ul>
+	</div>
+	</div>
+</body>
+</html>
